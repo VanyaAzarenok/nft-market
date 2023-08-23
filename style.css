@@ -1,1 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+h1 {
+  margin: 0px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background: var(--background, #2B2B2B);
+}
+
+button{
+    cursor: pointer;
+}
+
+.here-text h1 {
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.here-text p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.section-artist-cards header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-artist-cards header h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+
+.btn-artist-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    height: 60px;
+    padding: 0px 50px;
+    border: 2px solid var(--call-to-action, #A259FF);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    color: #FFF;
+    background-color: transparent;
+}
+
+.btn-artist-page:hover {
+    border: 2px solid transparent;
+    background-color: #A259FF;
+    transition: all 1s;
+}
+
+.btn-artist-pag {
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    margin-bottom: 30px;
+}
+
+.btn-artist-pag:hover {
+  border: 2px solid transparent;
+  background-color: #A259FF;
+}
+
+.hightlighted-nft {
+  display: flex;
+  gap: 30px;
+}
+
+.info-card-value {
+  font-family: Space Mono;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 140%; /* 39.2px */
+  text-transform: capitalize;
+}
+
+.info-card-text {
+  font-size: 23.99px;
+  font-weight: 400;
+  line-height: 160%; /* 38.384px */
+  text-transform: capitalize;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 12px;
+}
+
+.info-card:hover {
+  color: #d7b8ff;
+  border: 2px solid #a259ff;
+}
