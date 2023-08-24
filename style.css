@@ -121,3 +121,10 @@ button{
   color: #d7b8ff;
   border: 2px solid #a259ff;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 30px;
+  max-width: 1410px;
+}
